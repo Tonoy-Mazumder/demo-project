@@ -18,7 +18,7 @@ function Cart({ cartCount, setCartCount }) {
   };
   const handleCheckout = () =>{
     setCartCount([]);
-    toast.success(`check out successfull`)
+    toast.success(`Checkout successfull`)
   }
 
   return (
